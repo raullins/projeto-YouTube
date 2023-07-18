@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desafio 13C</title>
+
+        <style>
+
+            div{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .primeiroDiv{
+                padding-inline: 15 px;
+                padding-block: 10px;
+                inline-size: 400px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+                border-radius: 4px;
+                margin-block-start: 20px;
+                margin-inline-start: 20px;
+            }
+
+            .segundoDiv1{
+                font-size: 14px;
+                margin-inline-start: 10px;
+                margin-block-end: 20px;
+                color: grey;
+            }
+
+            .segundoDiv2{
+                display: flex;
+                align-items: top;
+                margin-inline-start: 10px;
+                margin-block-end: 20px;
+            }
+
+            .terceiroDiv1{
+                display: flex;
+                margin-inline-end: 10px;
+            }
+
+            .thumbnail{
+                object-fit: cover;
+                border-radius: 50px;
+                block-size: 55px;
+            }
+
+            .terceiroDiv2{
+                
+            }
+
+            .quartoDiv1{
+                display: flex;
+                justify-content: space-between;
+                margin-inline-end: 15px;
+            }
+
+            .name{
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            .time{
+                font-size: 13px;
+                color: gray;
+            }
+
+            .subject{
+                font-weight: bold;
+                margin-block-end: 5px;
+            }
+
+            .message{
+                color: grey;
+            }
+
+            .linkBox{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border-width: 1px;
+                border-style: solid;
+                border-radius: 20px;
+                border-color:  rgb(206, 206, 206);
+                overflow: hidden;
+                margin-block-start: 15px;
+                margin-inline-end: 15px;
+            }
+
+            .linkBoxIn1{
+                block-size: 100px;
+                inline-size: 100px;
+                background-color: rgb(206, 206, 206);
+                
+            }
+
+            .linkBoxIn2{
+                flex: 1;
+                margin-inline: 10px;
+
+            }
+
+            .siteName{
+                margin-block-end: 3px;
+            }
+
+            .siteInfo{
+                line-height: 20px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="primeiroDiv">
+            <div class="segundoDiv1">ALL IMBOXES</div>
+            <div class="segundoDiv2">
+                <div class="terceiroDiv1">
+                    <img class="thumbnail" src="thumbnails/channel-1.jpeg" alt="">
+                </div>
+                <div class="terceiroDiv2">
+                    <div class="quartoDiv1">
+                        <div class="name">Chewy Promotions</div>
+                        <div class="time">14:03 PM</div>
+                    </div>
+                    <div class="subject">Biggest sales of the year!</div>
+                    <div class="message">Hey there! We're writing to tell you about...</div>
+                    <div class="linkBox">
+                        <div class="linkBoxIn1"></div>
+                        <div class="linkBoxIn2">
+                            <div class="siteName">youtube.com</div>
+                            <div class="siteInfo">Backend web developent - a complete overview (2021)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

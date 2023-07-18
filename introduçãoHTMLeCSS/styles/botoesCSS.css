@@ -1,0 +1,68 @@
+
+.estilo-youtube{
+    background-color: rgb(124, 10, 10);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.1725s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.estilo-youtube:hover{
+    opacity: 0.8;
+}
+
+.estilo-youtube:active{
+    opacity: 0.5;
+}
+
+
+.estilo-meta{
+    background-color: white;
+    border-color: rgb(54, 54, 252);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(54, 54, 252);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.5s,
+        color 0.5s;
+   
+}
+.estilo-meta:hover{
+    background-color: rgb(31, 35, 248);
+    color: white;
+}
+
+.estilo-meta:active{
+    opacity: 0.6;
+}
+
+
+.estilo-twitter{
+    background-color: rgb(24, 111, 224);
+    border:none;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+.estilo-twitter:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Positioning practice</title>
+    </head>
+
+    <body style="
+        block-size: 3000px; 
+        padding-block-start: 75px;
+        padding-inline-start: 80px;">
+
+        <div style="
+            background-color: rgb(0, 0, 0);
+            color: white;
+            position: fixed;
+            inset-block-start: 0;
+            inset-inline: 0;
+            block-size: 75px;
+            z-index: 1;
+            ">header
+        </div>
+
+        <div style="
+            background-color: greenyellow;
+            position: fixed;
+            inset-block-start: 75px;
+            inset-inline-start: 0px;
+            inset-block-end: 0px;
+            inline-size: 75px;
+            ">sidebar
+        </div>
+
+        <div style="
+            background-color: palevioletred;
+            block-size: 200px;
+            inline-size: 200px;
+            ">div 1
+        </div>
+
+        <div style="
+            background-color: burlywood;
+            block-size: 200px;
+            inline-size: 200px;
+            position: relative;
+            ">div 2
+
+            <div style="
+            position: absolute;
+            background-color: black;
+            color: white;
+            inset-block-end: 10px;
+            inset-inline-end: 10px;"
+            >10:16
+
+            </div>
+        </div>
+
+    </body>
+</html>

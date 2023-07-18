@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>desafio 14</title>
+        <style> 
+
+            .modal{
+                padding-inline: 15px;
+                padding-block: 15px;
+                inline-size: 300px;
+                background-color: white;
+                border-radius: 10px;
+            }
+
+            .modal1{
+                font-weight: bold;
+                font-size: 30px;
+                margin-block-end: 12px;
+            }
+
+            .modal2{
+                margin-block-end: 12px;
+            }
+
+            .closeButton{
+                border-radius: 3px;
+                border-width: 1px;
+            }
+
+            .closeButton:hover{
+                background-color: rgb(73, 73, 255);
+                color: white;
+            }
+
+            .closeButton:active{
+                opacity: 50%;
+            }
+
+        </style>
+    </head>
+    
+    <body style="block-size: 3000px;">
+
+        <div style="
+            position: fixed;
+            background-color: green;
+            color: white;
+            inset-inline-end: 0;
+            inset-block-start: 0;
+            inset-block-end: 0;
+            inline-size: 100px;
+            ">right sidebar
+        </div>
+
+        <div style="
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.3);
+            inset-block: 0;
+            inset-inline: 0;
+            position: fixed;
+            justify-content: center;
+            align-items: center;
+            "> 
+
+            <div class="modal">
+                <div class="modal1">modal title</div>
+                <div class="modal2">this is a modal</div>
+                <button class="closeButton">Close</button>
+            </div>
+        </div>
+
+    </body>
+</html>
